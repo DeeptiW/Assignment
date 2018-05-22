@@ -101,20 +101,11 @@ class ViewController: UIViewController {
                 self.callApis()
             }
             
-            /*self.coreDataImplement(completion: {_ in
-                self.fetchFromCoreData(completion: {_ in
-                    DispatchQueue.main.async {
-                        self.tableView.reloadData()
-                    }
-                })
-            })*/
-            
-            
         })
         
         
         DispatchQueue.main.async {
-            Timer.scheduledTimer(withTimeInterval: 30, repeats: true) { timer in
+            Timer.scheduledTimer(withTimeInterval: 300, repeats: true) { timer in
                 if checkInternet() {
                     self.callApis()
                 } else{
