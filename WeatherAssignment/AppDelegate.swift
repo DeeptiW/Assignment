@@ -56,7 +56,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let container = NSPersistentContainer(name: "WeatherAssignment")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             
-            print(storeDescription)
+//            print(storeDescription)
             
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

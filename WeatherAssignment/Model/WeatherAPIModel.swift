@@ -8,11 +8,6 @@
 
 import UIKit
 
-class WeatherAPIModel: NSObject {
-
-}
-
-
 //MARK:-  Weather API Struct
 struct WeatherReport: Decodable
 {

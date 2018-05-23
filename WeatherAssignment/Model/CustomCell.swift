@@ -10,8 +10,12 @@ import UIKit
 
 //MARK:- Custom Cell
 class CustomCell : UITableViewCell{
-    
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var temp: UILabel!
-    
+}
+
+
+//MARK:- Custom Cell
+class DetailCell : UITableViewCell{
+    @IBOutlet weak var details: UILabel!
 }

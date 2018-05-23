@@ -15,6 +15,7 @@
 		CB49008F20B57E430077A3ED /* WeatherAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB49008E20B57E430077A3ED /* WeatherAPIModel.swift */; };
 		CB49009120B57EAD0077A3ED /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB49009020B57EAD0077A3ED /* CustomCell.swift */; };
 		CB49009320B588EE0077A3ED /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB49009220B588EE0077A3ED /* CoreDataModel.swift */; };
+		CB49009520B58B970077A3ED /* HandelApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB49009420B58B970077A3ED /* HandelApi.swift */; };
 		CB61385D20B39CE500D457B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61385C20B39CE500D457B0 /* AppDelegate.swift */; };
 		CB61386220B39CE500D457B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB61386020B39CE500D457B0 /* Main.storyboard */; };
 		CB61386720B39CE500D457B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB61386620B39CE500D457B0 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		CB49008E20B57E430077A3ED /* WeatherAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPIModel.swift; sourceTree = "<group>"; };
 		CB49009020B57EAD0077A3ED /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		CB49009220B588EE0077A3ED /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		CB49009420B58B970077A3ED /* HandelApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandelApi.swift; sourceTree = "<group>"; };
 		CB61385920B39CE500D457B0 /* WeatherAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB61385C20B39CE500D457B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB61386120B39CE500D457B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				CB49008E20B57E430077A3ED /* WeatherAPIModel.swift */,
 				CB49009020B57EAD0077A3ED /* CustomCell.swift */,
 				CB49009220B588EE0077A3ED /* CoreDataModel.swift */,
+				CB49009420B58B970077A3ED /* HandelApi.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				CB49008B20B57C680077A3ED /* WeatherAssignment.xcdatamodeld in Sources */,
 				CB49009120B57EAD0077A3ED /* CustomCell.swift in Sources */,
 				CB49008F20B57E430077A3ED /* WeatherAPIModel.swift in Sources */,
+				CB49009520B58B970077A3ED /* HandelApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
